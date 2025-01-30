@@ -8,6 +8,7 @@ class Player(CircleShape):
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
         self.timer = 0
+        Harry is a gay cunt
     
     def shoot(self):
         if self.timer <= 0:
